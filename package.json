@@ -1,0 +1,21 @@
+{
+  "name": "wds-prisma-nextjs",
+  "version": "1.0.0",
+  "main": "script.js",
+  "repository": "https://github.com/MrAndriy/wds-prisma-nextjs",
+  "author": "MrAndriy <59733657+MrAndriy@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "start:dev": "nodemon --watch src --exec ts-node script.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "nodemon": "^2.0.22",
+    "prisma": "^4.15.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.3"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.15.0"
+  }
+}
